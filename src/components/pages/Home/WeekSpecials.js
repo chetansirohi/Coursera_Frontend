@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import bruschettaImage from './assets/bruschetta.jpg';
 import greekSaladImage from './assets/greek-salad.jpg';
-import lemonDessertImage from './assets/lemon-dessert.jpg';
+import lemonPie from './assets/lemon-pie.jpg';
 import './WeekSpecials.css';
 import pages from '../../../utils/pages';
 import MealCard from './MealCard';
@@ -10,24 +10,20 @@ const meals = [
   {
     name: 'Greek Salad',
     image: greekSaladImage,
-    price: '$12.99',
-    description: `The famous greek salad of crispy lettuce, peppers, olives and 
-      our Chicago style feta cheese, garnished with crunchy garlic and rosemary 
-      croutons.`,
+    price: '$14.99',
+    description: `Fresh and vibrant Greek salad featuring crisp lettuce, juicy tomatoes, cucumbers, tangy feta cheese, olives, and zesty dressing.`,
   },
   {
     name: 'Bruschetta',
     image: bruschettaImage,
-    price: '$5.99',
-    description: `Our Bruschetta is made from grilled bread that has been 
-      smeared with garlic and seasoned with salt and olive oil.`,
+    price: '$4.99',
+    description: `Freshly baked bread topped with ripe tomatoes, garlic, basil, and drizzled with olive oil. A classic Italian appetizer bursting with flavors.`,
   },
   {
-    name: 'Lemon Dessert',
-    image: lemonDessertImage,
-    price: '$5.00',
-    description: `This comes straight from grandma's recipe book, every last 
-      ingredient has been sourced and is as authentic as can be imagined.`,
+    name: 'Lemon Pie',
+    image: lemonPie,
+    price: '$7.00',
+    description: `A delightful citrus dessert with a tangy and refreshing flavor, topped with a fluffy meringue or creamy whipped cream.`,
   },
 ];
 
@@ -40,7 +36,7 @@ const WeekSpecials = () => {
           Online Menu
         </Link>
       </div>
-      {meals.map((meal, index) => 
+      {meals.map((meal, index) =>
         <MealCard key={index} meal={meal} />
       )}
     </section>

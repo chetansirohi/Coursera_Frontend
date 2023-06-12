@@ -7,30 +7,30 @@ import TestimonialCard from './TestimonialCard';
 
 const customers = [
   {
-    fullName: 'Maria Sanchez',
+    fullName: 'Jose de Casa',
     image: customer1Image,
-    rating: [1, 1, 1, 1, 0.5],
+    rating: [1, 1, 1, 1, 0],
     says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
       eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
-    fullName: 'Antony Clifton',
+    fullName: 'Mihir Sharma',
     image: customer2Image,
     rating: [1, 1, 1, 1, 1],
     says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
       eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
-    fullName: 'Tamika Jackson',
+    fullName: 'Moriah Daniels',
     image: customer3Image,
     rating: [1, 1, 1, 1, 0.5],
     says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
       eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
-    fullName: 'Brandon Ming',
+    fullName: 'Kendra Smith',
     image: customer4Image,
-    rating: [1, 1, 1, 1],
+    rating: [1, 1, 1],
     says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
       eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
@@ -41,10 +41,10 @@ const Testimonials = () => {
     <section className="testimonials">
       <div className="container grid">
         <h2>What people say about us!</h2>
-        {customers.map((customer, index) => 
+        {customers.map((customer, index) =>
           <TestimonialCard key={index} customer={customer} />
         )}
-     </div>
+      </div>
     </section>
   );
 };

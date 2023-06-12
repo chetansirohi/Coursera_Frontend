@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: Karla, sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -24,7 +24,7 @@ a {
 h1,
 h2 {
   line-height: 1;
-  font-family: "Markazi Text";
+  font-family: "Heebo", sans-serif;
   font-weight: normal;
 }
 
