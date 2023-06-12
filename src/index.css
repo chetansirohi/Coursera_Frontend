@@ -1,33 +1,30 @@
 * {
-  display: flex;
-}
-* {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Karla, sans-serif;
   font-size: 1rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;
-  color: #495e57;
+  color: #354942;
 }
 
 header {
-  border-bottom: 1rem solid #495e57;
+  border-bottom: 1rem solid #354942;
 }
 
 a {
   text-decoration: none;
-  color: #495e57;
+  color: #354942;
 }
 
 h1,
 h2 {
   line-height: 1;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Markazi Text";
   font-weight: normal;
 }
 
@@ -60,7 +57,7 @@ select {
   border: 0.0625rem solid #e0e0e0;
   border-radius: 0.375rem;
   background: #ffffff;
-  color: #485a54;
+  color: #354942;
   cursor: pointer;
   transition: border-color 0.3s;
 }
@@ -68,7 +65,7 @@ select {
 input:focus,
 select:focus {
   border-width: 0.125rem;
-  border-color: #485a54;
+  border-color: #354942;
 }
 
 label {
@@ -103,7 +100,7 @@ main > section {
   padding: 0.5rem 1rem;
   border-radius: 2rem;
   background-color: #f4ce14;
-  color: #485a54;
+  color: #354942;
   font-weight: bold;
   border: 0.1875rem solid #f4ce14;
   transition: background, border, color 0.5s;
@@ -111,7 +108,7 @@ main > section {
 
 .button-primary:hover,
 .button-primary:focus {
-  background-color: #485a54;
-  border-color: #485a54;
+  background-color: #354942;
+  border-color: #354942;
   color: #ffffff;
 }
